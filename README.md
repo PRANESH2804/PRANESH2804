@@ -1,4 +1,4 @@
-# Pranesh S ⚡
+# Pranesh S 🗡
 
 **B.Tech Cybersecurity · Amrita Vishwa Vidyapeetham '27**
 
