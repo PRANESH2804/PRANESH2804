@@ -3,14 +3,14 @@
 <!-- Hero Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,35:0f3460,70:16213e,100:00b4d8&height=220&section=header&text=PRANESH%20S&fontSize=60&fontColor=00f0ff&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20Engineer%20%7C%20Detection%20Engineering%20%26%20SOAR%20Automation&descAlignY=58&descAlign=50" width="100%"/>
 
-<!-- Dynamic Typewriter -->
+<!-- Dynamic Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+closed-loop+SIEM+%2B+SOAR+security+pipelines;Detection+Engineering+%26+MITRE+ATT%26CK+correlations;Hunting+threats+with+Splunk+Enterprise+%26+Python+automation;B.Tech+Cybersecurity+%40+Amrita+Vishwa+Vidyapeetham;CompTIA+Security%2B+Certified+%7C+Threat+Hunting+%26+SOC;Real-time+Attack+Telemetry+%26+Honeypot+Analytics&font=Fira+Code&center=true&width=700&height=45&color=00F0FF&vCenter=true&size=20&pause=1200" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Building+closed-loop+SIEM+%2B+SOAR+security+pipelines;Detection+Engineering+%26+MITRE+ATT%26CK+correlations;Hunting+threats+with+Splunk+Enterprise+%26+Python+automation;SBOM-driven+Runtime+Integrity+%26+Supply-Chain+Defense;CompTIA+Security%2B+Certified+%7C+Threat+Hunting+%26+SOC;Real-time+Attack+Telemetry+%26+Honeypot+Analytics;B.Tech+Cybersecurity+%40+Amrita+Vishwa+Vidyapeetham&font=Fira+Code&center=true&width=720&height=45&color=00F0FF&vCenter=true&size=20&pause=1200" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Social Badges -->
+<!-- Social & Contact Badges -->
 <a href="https://linkedin.com/in/pranesh-s-98942a303" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
@@ -31,22 +31,39 @@
 ```yaml
 identity:
   name: Pranesh S
-  role: Cybersecurity Engineer & Security Automation Developer
+  title: Cybersecurity Engineer & Detection Engineering Specialist
   education: B.Tech in Cybersecurity (2023 - 2027)
   institution: Amrita Vishwa Vidyapeetham, Coimbatore
-  core_specialization: [ Detection Engineering, SIEM / SOAR Automation, Threat Hunting, AppSec ]
-  flagship_system: End-to-End Splunk SIEM + Python SOAR Homelab on Kali Linux
-  certifications: [ CompTIA Security+, Splunk SOAR, Cisco Intro to Cyber, Fortinet 3.0 ]
+  focus_areas:
+    - Detection Engineering & SIEM
+    - SOAR Automation & Incident Response
+    - Software Supply Chain Security (SBOM & Runtime Integrity)
+    - Threat Intelligence & Honeypot Analytics
+  flagship_systems:
+    - Splunk SIEM + Python SOAR Closed-Loop Homelab (Bare-Metal Kali Linux)
+    - SBOM-Driven Runtime Integrity Attestation Framework
+    - Geolocation Attack Honeypot (Specathon 2025)
+  certifications:
+    - CompTIA Security+
+    - Splunk – Introduction to SOAR
+    - Cisco – Introduction to Cybersecurity
+    - Fortinet – Threat Landscape 3.0 & Getting Started in Cybersecurity 3.0
   frameworks: [ MITRE ATT&CK, NIST CSF, Cyber Kill Chain, OWASP Top 10 ]
-  status: Engineering automated SOC pipelines & telemetry correlation engines
+  core_stack: [ Python, Splunk Enterprise, SPL, Linux/Bash, MongoDB, Wireshark, Burp Suite ]
 ```
 
-- 🛡️ **Detection Engineering & SIEM**: Architected end-to-end telemetry pipelines with **Splunk Enterprise**; developed custom SPL correlation searches mapped to the **MITRE ATT&CK framework** (brute-force attacks, LOLBins, persistence, C2 traffic, and privilege escalation).
-- ⚙️ **SOAR & Security Orchestration**: Engineered a Python SOAR engine with automated playbooks, closed-loop telemetry feedback, dynamic risk scoring, IOC extraction, and non-destructive host containment.
-- 🌐 **Threat Telemetry & Honeypots**: Deployed decoy sensor infrastructure logging real-time attack telemetry, IP origins, and protocol vectors into **MongoDB** with an interactive geographic attack visualization heatmap (**Specathon 2025 Hackathon**).
-- 🔍 **Application & Network Security**: Strong foundation in API security, Burp Suite, Nmap reconnaissance, Wireshark packet dissection, and Linux systems hardening (Kali & Ubuntu).
+---
 
-<br/>
+## 💼 Professional Summary & Value Proposition
+
+Final-year **B.Tech Cybersecurity** student specializing in **Detection Engineering**, **Python-based Security Automation**, and **Closed-Loop Incident Response**. Proven track record in:
+
+- **SIEM & Detection**: Architected production-grade telemetry pipelines in **Splunk Enterprise**; developed custom SPL correlation searches mapped to the **MITRE ATT&CK framework** covering brute-force intrusions, LOLBins, persistence, C2 beacons, and privilege escalation.
+- **SOAR Orchestration**: Engineered a 14-stage automated Python SOAR engine with automated IOC extraction, threat intelligence enrichment, risk scoring, case management, and non-destructive host containment.
+- **Software Supply Chain & Runtime Integrity**: Researched and deployed SBOM-driven runtime verification architectures ensuring cryptographically attested workload integrity and unauthorized execution defense in containerized environments.
+- **Threat Telemetry & Decoys**: Built a live honeypot infrastructure capturing real-time exploitation telemetry into **MongoDB** with an interactive geographic attack visualization dashboard (**Specathon 2025 Hackathon**).
+
+---
 
 ## 🎯 Strategic Focus Pillars
 
@@ -55,74 +72,74 @@ identity:
 <td width="50%" valign="top">
 
 ### 🛡️ Detection Engineering & SIEM
-- Telemetry ingestion & custom field extraction (`props.conf` / `transforms.conf`)
-- MITRE ATT&CK-aligned correlation rules & multi-stage detection logic
-- Reduction of alert fatigue via preceding authentication failure clustering
-- Live SOC analyst dashboards with single-value KPI tracking
+- Ingestion of authentication, process execution, and network telemetry
+- Custom field extractions (`props.conf` / `transforms.conf`)
+- MITRE ATT&CK correlation rules minimizing false positives and alert fatigue
+- Multi-panel SOC dashboards with interactive KPI drilldowns
 
 </td>
 <td width="50%" valign="top">
 
 ### ⚙️ SOAR & Security Automation
 - Python-driven incident triage, risk scoring & IOC extraction
-- Automated incident ticketing (`/var/log/soar_cases/INC-*.json`)
-- Safe containment & automated host-level IP blocking via iptables
-- Closed-loop SIEM feedback injection for auditability
+- Structured audit ticketing (`/var/log/soar_cases/INC-*.json`)
+- Non-destructive automated containment via host-level firewall control
+- Closed-loop SIEM feedback injection for compliance auditability
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 Threat Intelligence & Telemetry
-- Real-time attacker interaction logging and payload capture
-- Geolocation attack mapping with interactive JavaScript heatmaps
-- Protocol vector classification (SSH, HTTP, network probing)
-- NoSQL threat intelligence storage using MongoDB
+### 📦 SBOM & Runtime Integrity
+- Software Bill of Materials generation (CycloneDX / SPDX standards)
+- Cryptographic attestation of application binaries and container dependencies
+- Continuous runtime monitoring against unauthorized drift and anomalous execution
+- Shift-left security enforcement in automated CI/CD deployment pipelines
 
 </td>
 <td width="50%" valign="top">
 
-### 🔐 AppSec & Network Defense
-- Web & REST API vulnerability assessment (OWASP Top 10)
-- Deep packet inspection & protocol analysis using Wireshark
-- Network perimeter mapping & service enumeration with Nmap
-- Secure CI/CD integration and automated security scanning
+### 🌐 Threat Intelligence & Honeypots
+- Decoy honeypot sensors capturing live attacker interaction and command strings
+- Geolocation attack mapping with interactive JavaScript heatmaps
+- Protocol vector classification (SSH brute-force, web probing, port scans)
+- High-throughput NoSQL event pipeline backed by MongoDB
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
-## 🚀 Featured Engineering Projects
+## 🚀 Featured Cybersecurity Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🛡️ [Splunk SIEM + SOAR Homelab](https://github.com/PRANESH2804/splunk-siem-soar-homelab)
-An end-to-end, production-aligned Cybersecurity Monitoring and Automated Incident Response Homelab deployed on bare-metal **Kali Linux**.
-- Integrates multi-source telemetry into Splunk Enterprise
-- Custom SPL correlation rules mapped to MITRE ATT&CK tactics
-- Python SOAR engine providing 14-stage incident lifecycle automation, threat enrichment, risk scoring, and non-destructive containment
-- Interactive Splunk SOC Dashboard with live drilldown investigations
+An enterprise-grade Cybersecurity Monitoring and Automated Incident Response Homelab deployed on bare-metal **Kali Linux**.
+- Multi-source telemetry ingestion integrating system authentication and simulated security events
+- Custom SPL correlation detections mapped to MITRE ATT&CK tactics (Credential Access, Execution, Persistence, Command & Control)
+- Python SOAR engine implementing 14-stage automated incident lifecycle, threat enrichment, and safe host containment
+- Live SOC Dashboard with real-time KPI metrics and in-page investigation drilldown
 
-`Splunk Enterprise` `Python` `SPL` `SOAR` `MITRE ATT&CK` `Kali Linux`
+`Splunk Enterprise` `Python 3` `SPL` `SOAR` `MITRE ATT&CK` `Kali Linux`
 
-**[→ Explore Repository](https://github.com/PRANESH2804/splunk-siem-soar-homelab)**
+**[→ View Repository](https://github.com/PRANESH2804/splunk-siem-soar-homelab)**
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 [Honeypot with Geolocation Attack Dashboard](https://github.com/PRANESH2804)
-Developed for **Specathon 2025 Hackathon** — a live decoy sensor network capturing real-time attack vectors.
-- Captures and logs attacker activity, source IP telemetry, and exploitation payloads in real time
-- Structured event storage in **MongoDB** with automated categorization by attack origin and severity
-- Interactive frontend dashboard with geographic heatmaps and incident tracking
-- Real-time classification logic for brute-force and port-scan attempts
+### 📦 [SBOM-Driven Runtime Integrity Verification](https://github.com/PRANESH2804)
+Software supply-chain defense pipeline verifying binary and dependency integrity from build to runtime.
+- Generates standards-compliant Software Bill of Materials (CycloneDX / SPDX) during build phase
+- Enforces cryptographic attestation preventing unauthorized binary alterations and dependency confusion
+- Real-time container execution monitoring detecting drift against verified baseline signatures
+- Automated failure gates integrated into CI/CD release workflows
 
-`Python` `MongoDB` `JavaScript` `Threat Intelligence` `Specathon 2025`
+`Python` `Kubernetes` `Docker` `CycloneDX` `Supply Chain Security` `Linux`
 
 **[→ Project Details](https://github.com/PRANESH2804)**
 
@@ -131,9 +148,23 @@ Developed for **Specathon 2025 Hackathon** — a live decoy sensor network captu
 <tr>
 <td width="50%" valign="top">
 
+### 🌐 [Honeypot with Geolocation Attack Dashboard](https://github.com/PRANESH2804)
+Built for **Specathon 2025 Hackathon** — a live decoy sensor network capturing real-time attack telemetry.
+- Captures attacker interactions, source IP telemetry, and exploit payloads in real time
+- Structured event storage in **MongoDB** with automated categorization by origin and severity
+- Interactive frontend dashboard with geographic heatmaps and incident tracking
+- Real-time classification logic classifying brute-force and port-scan attempts
+
+`Python` `MongoDB` `JavaScript` `Threat Intelligence` `Specathon 2025`
+
+**[→ Project Details](https://github.com/PRANESH2804)**
+
+</td>
+<td width="50%" valign="top">
+
 ### 🔄 [DevSecOps & Secure CI/CD Pipeline Lab](https://github.com/PRANESH2804)
-Hands-on implementation of automated DevSecOps pipelines integrating shift-left security principles.
-- Integrated automated Static Application Security Testing (SAST) and code quality scanning with **SonarQube**
+Automated DevSecOps pipeline implementing shift-left security principles on Linux.
+- Integrated Static Application Security Testing (SAST) and code quality scanning with **SonarQube**
 - Automated pipeline execution with **Jenkins** on Linux
 - Secret detection and containerized dependency vulnerability auditing
 - Fail-safe deployment gates preventing high-severity vulnerabilities from reaching staging
@@ -143,24 +174,10 @@ Hands-on implementation of automated DevSecOps pipelines integrating shift-left 
 **[→ Project Details](https://github.com/PRANESH2804)**
 
 </td>
-<td width="50%" valign="top">
-
-### 📡 [Network Threat Hunting & Packet Analysis](https://github.com/PRANESH2804)
-Hands-on laboratory investigations focusing on protocol-level threat identification and digital forensics.
-- Packet dissection of suspicious DNS tunneling, ARP spoofing, and rogue SMB sessions with **Wireshark**
-- Automated host discovery, service fingerprinting, and NSE vulnerability scanning with **Nmap**
-- Extraction of forensic artifacts and credentials with **John the Ripper**
-- Analysis of simulated lateral movement and anomalous network egress
-
-`Wireshark` `Nmap` `Digital Forensics` `TCP/IP` `Linux`
-
-**[→ Project Details](https://github.com/PRANESH2804)**
-
-</td>
 </tr>
 </table>
 
-<br/>
+---
 
 ## 🧰 Technical Arsenal
 
@@ -175,7 +192,7 @@ Hands-on laboratory investigations focusing on protocol-level threat identificat
 
 <br/>
 
-### Security & Analysis Tools
+### Security, Forensics & Analysis Tools
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-002B49?style=for-the-badge&logo=nmap&logoColor=white)
@@ -184,29 +201,50 @@ Hands-on laboratory investigations focusing on protocol-level threat identificat
 
 <br/>
 
-### Languages & Frameworks
+### Programming Languages & Automation
 <img src="https://skillicons.dev/icons?i=python,c,cpp,bash,js,html,css&theme=dark" />
 
 <br/>
 
-### Databases & Platforms
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,git,github,docker,linux&theme=dark" />
+### Infrastructure, Databases & DevSecOps
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,git,github,docker,kubernetes,linux&theme=dark" />
 
 </div>
 
-<br/>
+---
 
-## 📜 Certifications & Credentials
+## 📜 Verified Certifications & Education
 
-- 🎖️ **CompTIA Security+** — Global benchmark for baseline cybersecurity & threat management
-- 🛡️ **Splunk – Introduction to SOAR** — Security Orchestration, Automation, and Response fundamentals
-- 🌐 **Cisco – Introduction to Cybersecurity** — Networking defense and foundational security architecture
-- 🔒 **Fortinet – Threat Landscape 3.0** — Advanced threat modeling and global threat intelligence
-- 🔰 **Fortinet – Getting Started in Cybersecurity 3.0** — Security operations and infrastructure defense
+<table>
+<tr>
+<td width="60%" valign="top">
 
-<br/>
+### 🎓 Education
+- **B.Tech in Cybersecurity** (2023 – 2027)  
+  *Amrita Vishwa Vidyapeetham, Coimbatore*  
+  **CGPA**: 6.44 / 10  
+  *Key Coursework*: Data Structures & Algorithms, Operating Systems, Network Security, Cryptography, Ethical Hacking, Digital Forensics, Secure Software Engineering
 
-## 📊 Live GitHub Metrics
+- **Higher Secondary Education (Class 12)**  
+  *Century Foundation Matric Higher Secondary School* — **83%**
+
+</td>
+<td width="40%" valign="top">
+
+### 📜 Certifications
+- 🎖️ **CompTIA Security+**
+- 🛡️ **Splunk – Introduction to SOAR**
+- 🌐 **Cisco – Introduction to Cybersecurity**
+- 🔒 **Fortinet – Threat Landscape 3.0**
+- 🔰 **Fortinet – Getting Started in Cybersecurity 3.0**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 Live GitHub Analytics
 
 <div align="center">
 
